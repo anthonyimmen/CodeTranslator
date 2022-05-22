@@ -16,5 +16,5 @@ To run this project on your machine, download the files, navigate into the CodeT
 
 # Online Link
 
-If you would like to view this app online, please visit https://main--dancing-marzipan-9ccd4b.netlify.app/ 
+If you would like to view this app online, please visit https://main--dancing-marzipan-9ccd4b.netlify.app/
 Enjoy!
