@@ -8,7 +8,7 @@ This project was built using React and the OpenAI API. I've themed this project 
 
 There are 3 options for the code snippet's language, those being Python 3, Java, and C++. The app will still take input if the langauge is doesn't match your selected version or if it isn't even a code snippet, but the output might not be accurate if you choose to do so.
 
-A Dark and Light mode is also included in the application for your viewing preference. I also have a link to the OpenAI documentation and a link to this GitHub repo to view the code.
+A Dark/Light mode is also included in the application for your viewing preference. I also have a link to the OpenAI documentation and a link to this GitHub repo to view the code.
 
 # Local Testing
 
