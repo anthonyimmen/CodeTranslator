@@ -19,6 +19,7 @@ function GitHubButton(props) {
           window.location.href =
             "https://github.com/anthonyimmen/CodeTranslator";
         }}
+        alt="Image of the GitHub for link to view the code created to build this site"
       ></button>
     </div>
   );

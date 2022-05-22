@@ -9,7 +9,7 @@ import React, { useState } from "react";
 function App() {
   const [state, setState] = useState("dark");
   return (
-    <div className={state === "dark" ? "AppDark" : "AppLight"}>
+    <div className={state === "dark" ? "AppDark" : "AppLight"} alt="The background image is a gif of code falling from the top of the screen like rain. There is a dark and light mode variant.">
       <header className="App-header">
         <Header lightDark={state} />
       </header>

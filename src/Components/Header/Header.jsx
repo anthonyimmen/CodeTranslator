@@ -29,6 +29,7 @@ function Header(props) {
             e.preventDefault();
             window.location.href = "https://beta.openai.com/overview";
           }}
+          alt="Image of the OpenAI logo"
         ></button>
       </div>
     </div>
