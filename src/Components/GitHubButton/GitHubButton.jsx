@@ -16,7 +16,8 @@ function GitHubButton(props) {
         id="githubLogo"
         onClick={(e) => {
           e.preventDefault();
-          window.location.href = "https://github.com/anthonyimmen";
+          window.location.href =
+            "https://github.com/anthonyimmen/CodeTranslator";
         }}
       ></button>
     </div>

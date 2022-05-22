@@ -80,8 +80,7 @@ function Prompt(props) {
           <textarea
             className="promptTextArea"
             value={promptInput}
-            placeholder="#
-            def remove_common_prefix(x, prefix, ws_prefix): #"
+            placeholder="Type in any snippet of code in your chosen language."
             onChange={(e) => setPromptInput(e.target.value)}
           />
         </div>
