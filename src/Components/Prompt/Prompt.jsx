@@ -31,7 +31,7 @@ function Prompt(props) {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer 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`,
+          Authorization: `Bearer ${process.env.REACT_APP_OPENAI_SECRET}`,
         },
         body: JSON.stringify(data),
       }
