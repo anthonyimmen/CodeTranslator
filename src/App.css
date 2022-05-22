@@ -1,38 +1,80 @@
-.App {
+.AppDark {
   text-align: center;
+  /* Source for gif https://www.youtube.com/watch?v=rpWrtXyEAN0 */
+  background-image: url("./imgsAndGifs/codeRainBackground.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-y: scroll;
+  min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AppLight {
+  text-align: center;
+  /* Source for gif https://www.youtube.com/watch?v=rpWrtXyEAN0 */
+  background-image: url("./imgsAndGifs/invertedCodeRain.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-y: scroll;
+  min-height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#darkLightModeToggle {
+  z-index: 100;
+  position: fixed;
+  left: 1rem;
+  bottom: 1rem;
+}
+
+#gitHub {
+  z-index: 100;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-top: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.upperbody {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow-x: hidden;
+  padding-top: 3rem;
+  padding-left: 5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+#inputAndResponseArea {
+  align-self: flex-start;
+}
+
+#filters {
+  align-self: flex-start;
+}
+
+@media only screen and (max-width: 1450px) {
+  .upperbody {
+    
   }
 }
+
+@media only screen and (max-width: 1250px) {
+  .upperbody {
+
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .upperbody {
+  }
+}
+

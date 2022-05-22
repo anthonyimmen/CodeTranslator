@@ -1,0 +1,60 @@
+#promptAndResponses {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5rem;
+  height: auto;
+  width: 800px;
+}
+
+#promptContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 400px;
+  width: 800px;
+  border-radius: 20px;
+}
+
+#promptDescription {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  padding-left: 50px;
+}
+
+#promptTitle {
+  float: left;
+  font-family: Arial, Helvetica;
+  font-weight: bold;
+  color: black;
+  align-self: flex-start;
+  font-size: 3rem;
+  margin-right: 2.5rem;
+}
+
+#submitButton {
+  font-family: Arial, Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+  height: 60px;
+  width: 150px;
+  cursor: pointer;
+  border: none;
+  margin: none;
+}
+
+#submitButton:hover {
+  opacity: .7;
+  transition: .4s;
+}
+
+textarea {
+  resize: none;
+  width: 600px;
+  height: 200px;
+  font-size: 1.5rem;
+  padding: 30px;
+  border-radius: 20px;
+}

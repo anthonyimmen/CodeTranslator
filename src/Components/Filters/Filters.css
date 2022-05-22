@@ -1,0 +1,25 @@
+#filterContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 15rem;
+}
+
+.filter {
+  font-family: Arial, Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 20px;
+  height: 100px;
+  width: 200px;
+  cursor: pointer;
+  border: none;
+  margin: none;
+  background-color: gray;
+  color: white;
+}
+
+.filter:hover {
+  opacity: .9;
+  transition: .4s;
+}

@@ -1,0 +1,69 @@
+#Header {
+  font-family: Arial, Helvetica;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  gap: 50rem;
+  position: sticky;
+}
+
+#appTitle {
+  align-self: flex-start;
+  font-size: 4rem;
+  position: relative;
+  place-self: center;
+}
+
+#referenceSection {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+}
+
+#reference{
+  border: none;
+  margin: none;
+  place-self: center;
+  font-size: 1rem;
+  padding-right: 1rem;
+}
+
+#openAILogoDark {
+  /* logo source https://seeklogo.com/vector-logo/428036/open-ai */
+  background: url("../../imgsAndGifs/openAILogo.svg");
+  background-size: 100px 100px;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  border: none;
+  margin: none;
+}
+
+#openAILogoLight {
+  /* logo source https://seeklogo.com/vector-logo/428036/open-ai */
+  background: url("../../imgsAndGifs/openAILogoDark.svg");
+  background-size: 100px 100px;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  border: none;
+  margin: none;
+}
+
+@media only screen and (max-width: 1450px) {
+  #Header {
+    gap: 30rem;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  #Header {
+    gap: 20rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #Header {
+    gap: 10rem;
+  }
+}

@@ -1,0 +1,26 @@
+#darkMode {
+  background-image: url(../../imgsAndGifs/moon.svg);
+  background-color: navy;
+  background-size: 80px 80px;
+  border-radius: 50px;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  border: none;
+  margin: none;
+}
+
+#lightMode {
+  background-image: url(../../imgsAndGifs/sun.svg);
+  background-color: rgb(255, 196, 0);
+  background-size: 70px 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  place-items: center;
+  border-radius: 50px;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  border: none;
+  margin: none;
+}

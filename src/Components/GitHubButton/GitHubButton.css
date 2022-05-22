@@ -1,0 +1,27 @@
+#GithubReference {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+#GithubTitle {
+  font-family: Arial, Helvetica;
+  font-weight: bold;
+  font-size: 1.25rem;
+  place-self: center;
+  width: 150px;
+}
+
+#githubLogo {
+  /* Source for gif https://www.svgrepo.com/svg/332084/github */
+  background: url("../../imgsAndGifs/githubLogo.svg");
+  background-color: white;
+  color: white;
+  background-size: 80px 80px;
+  border-radius: 50px;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  border: none;
+  margin: none;
+}
