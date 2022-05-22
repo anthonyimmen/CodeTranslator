@@ -1,12 +1,10 @@
 import "./Filters.css";
-import React, { useState } from "react";
 
 function Filters() {
   let python = true;
   let java = false;
   let cPP = false;
-
-  const [currentFilter, setFilter] = useState("python");
+  let currentFilter = "Python 3";
 
   function buttonClicked(event) {
     const id = event.currentTarget.id;
@@ -14,17 +12,17 @@ function Filters() {
       python = true;
       java = false;
       cPP = false;
-      setFilter("Python 3");
+      currentFilter = "Python 3";
     } else if (id === "Java") {
       python = false;
       java = true;
       cPP = false;
-      setFilter("Java");
+      currentFilter = "Java";
     } else if (id === "C++") {
       python = false;
       java = false;
       cPP = true;
-      setFilter("C++");
+      currentFilter = "C++";
     }
     setColor(id);
   }
