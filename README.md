@@ -10,6 +10,8 @@ There are 3 options for the code snippet's language, those being Python 3, Java,
 
 A Dark and Light mode is also included in the application for your viewing preference. I also have a link to the OpenAI documentation and a link to this GitHub repo to view the code.
 
+![Uploading Screen Shot 2022-05-22 at 6.04.25 PM.png…]()
+
 # Local Testing
 
 To run this project on your machine, download the files, navigate into the CodeTranslator folder, then run npm start. The app will then load in localhost:3000
