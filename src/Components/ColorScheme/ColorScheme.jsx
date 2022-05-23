@@ -10,6 +10,7 @@ function ColorScheme(props) {
     }
   }
 
+  // There are two different buttons that used to display different images depending on light or dark mode.
   return props.lightDark === "dark" ? (
     <button id="darkMode" onClick={buttonClicked} alt="Image of a Moon for Dark Mode"/>
   ) : (

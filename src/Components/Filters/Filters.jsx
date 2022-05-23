@@ -1,6 +1,7 @@
 import "./Filters.css";
 
 function Filters() {
+  // These variables are used to keep track of which filter button is on. 
   let python = true;
   let java = false;
   let cPP = false;
@@ -30,12 +31,14 @@ function Filters() {
   function setColor(elementFlag) {
     const links = document.getElementsByClassName("filter");
     const element = document.getElementById(elementFlag);
-
+      
+    // Reset all of the colors for the buttons 
     for (const link of links) {
       link.style.backgroundColor = "grey";
       link.style.color = "white";
     }
-
+    
+    // Change only the clicked button to green
     element.style.backgroundColor = "#17b332";
   }
 

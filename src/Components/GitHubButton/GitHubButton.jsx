@@ -1,5 +1,6 @@
 import './GitHubButton.css'
 
+// Button used to as link the Github to view the source code.
 function GitHubButton(props) {
   let lightPreference = props.lightDark
   return (

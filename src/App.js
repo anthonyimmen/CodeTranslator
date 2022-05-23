@@ -6,6 +6,8 @@ import ColorScheme from './Components/ColorScheme/ColorScheme'
 import GitHubButton from './Components/GitHubButton/GitHubButton'
 import React, { useState } from "react";
 
+// This is the main file for the application. It uses a State variable for keeping track of light and dark mode. The setState function is then passed as a prop to the ColorScheme component to allow the user to change the colors to their preference. The state is passed as a prop to all of the other components so their colors can be adjusted accordingly.
+
 function App() {
   const [state, setState] = useState("dark");
   return (

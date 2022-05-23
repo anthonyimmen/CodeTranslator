@@ -1,6 +1,8 @@
 import "./ResponseList.css";
 import Response from '../Response/Response'
 
+// This component renders all the responses which will be created from the inputOutputArr from Prompt.jsx
+
 function ResponseList(props) {
 
   let lightPreference = props.lightDark;

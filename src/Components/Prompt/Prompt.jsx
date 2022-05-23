@@ -3,11 +3,15 @@ import ResponseList from "../ResponseList/ResponseList";
 import React, { useState } from "react";
 import Filters from "../Filters/Filters";
 
+// This component performs the API call and keeps track of all the inputs and API outputs.
+
+// This array contains all the inputs and outputs
 let inputOutputArr = [];
 
 function Prompt(props) {
   const [promptInput, setPromptInput] = useState("");
 
+  // In const data, the prompt is updated by the textarea input and the current filter from the Filters component.
   async function onSubmit(event) {
     setPromptInput(promptInput);
     event.preventDefault();
@@ -25,6 +29,8 @@ function Prompt(props) {
       presence_penalty: 0.0,
       stop: ["#"],
     };
+    
+    // The call is made to the API
     const response = await fetch(
       "https://api.openai.com/v1/engines/text-curie-001/completions",
       {
@@ -39,7 +45,8 @@ function Prompt(props) {
     const finalData = await response.json();
     let result = finalData.choices[0].text;
     console.log(result);
-
+      
+    // The information is added if there was an input, and is not if input is empty. The input is then reset to ""
     if (promptInput === "") {
       return;
     } else {

@@ -1,5 +1,6 @@
 import './Response.css'
 
+// This component is used to visualize the API inputs and outputs.
 function Response(props) {
   let lightPreference = props.lightDark;
   return (

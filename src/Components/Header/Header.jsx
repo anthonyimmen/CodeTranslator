@@ -1,5 +1,6 @@
 import "./Header.css";
 
+// Contains the title and a button that links to the API for further user viewing.
 function Header(props) {
   let lightPreference = props.lightDark;
   return (
