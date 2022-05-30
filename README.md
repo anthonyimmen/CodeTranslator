@@ -36,7 +36,7 @@ Allows the user to changes which type of code snippet that they would like to in
 
 ## GitHubButton.jsx and ColorScheme.jsx
 
-These components are fairly straight forward, in that GitHubButton allow the user to easily this GitHub which houses my code and ColorScheme lets the user change to color scheme by updating a State variable in App.js
+These components are fairly straight forward, in that GitHubButton allow the user to easily access this GitHub which houses my code and ColorScheme lets the user change to color scheme by updating a State variable in App.js
 
 # Local Testing
 
